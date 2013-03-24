@@ -3,8 +3,6 @@
 
 Dough UI Socialpick plug-in
 
-25일에 공개하겠습니다
-
 
 *Version:* 0.1.0
 
