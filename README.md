@@ -3,6 +3,10 @@
 
 Dough UI Socialpick plug-in
 
+*License:* ["Same as Dough (creativecommons 3.0)](http://creativecommons.org/licenses/by/3.0/deed.ko)
+
+*Author:* [Han Seung ho] (http://facebook.com/pengun)
+
 
 ## branch
 
