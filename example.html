@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+	<meta charset="utf-8">
+	<title>Dough-socialpick plugin</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+	<!-- dough-socialpick -->
+	<script src="js/dough-socialpick.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".socialpick").socialpik({
+				apikey: "d9934465121c5e7de3fe112b7a5c043d78332613",
+				content: ".socialpick_content"
+			});
+		})
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="css/dough-0.2.0.css"/>
+	<link rel="stylesheet" type="text/css" href="css/dough-responsible-0.2.0.css"/>
+	<link rel="stylesheet" type="text/css" href="css/dough-socialpick.css"/>
+</head>
+
+<body class="responsible">
+	<div class="nav_top">
+		<div class="d_page type_center">
+			<h1>한승호 코딩테스트</h1>		
+		</div>
+	</div>
+	<div class="d_page type_center" id="top">
+		<div class="d_wrap">
+			<div class="hansh panel d_wrap type_notice">
+				<h2>SocialPick Plug-in</h2>
+				<a href="https://github.com/HanSeungHo/Dough-socialpick.git" target="_blank" class="d_btn f_r">GitHub project</a>
+				</p>
+			</div>			
+
+			<ul class="socialpick tab_bar">
+				<li class="on"><a href="#">전체</a></li>
+				<li><a href="#c">시사</a></li>
+				<li><a href="#s">스포츠</a></li>
+				<li><a href="#e">연예</a></li>
+				<li class="f_r">
+					<label class="socialpick_sort">
+						<input type="checkbox" class="d_form"/> 키워드 정렬
+					</label>
+					<select class="socialpick_num d_form">
+						<option value="5">5개</option>					    		
+						<option value="10" selected="selected">10개</option>
+						<option value="15">15개</option>
+						<option value="20">20개</option>							    
+					</select>
+				</li>
+			</ul>
+			<ul class="socialpick_content d_list type_article .type_border">
+			</ul>
+		</div>			
+	</div>
+
+</body>
+</html>
