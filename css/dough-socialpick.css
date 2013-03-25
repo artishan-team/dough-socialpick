@@ -11,6 +11,8 @@
 	color: #666;
 	font-size: 1em
 }
-.socialpick_content li{
+
+.d_list.type_article > li{
+	padding-top: 1em;
 	margin:0.5em 0 0.5em;
 }
