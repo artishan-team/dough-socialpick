@@ -87,15 +87,17 @@
 				for (var i in data.socialpick.item)
 				{  
 					result += [
-								"<a href='LINK'><li class='d_wrap panel'>",
-							  	" <span class='rank'> RANK위 </span> KEY",
+								"<li class='d_wrap panel'>",
 							  	" <span class='info'> 검색수:CNT 트윗수:TCNT</span>",
-							  	"</li></a>"
+							  	" <h5><span class='rank'> RANK위 </span> <a href='LINK'>KEY</a></h5>",
+							  	" <p> CONTENT</p>",
+							  	"</li>"
 							  ].join('\n')
 							  .replace('RANK', data.socialpick.item[i].rank)					
 							  .replace('KEY', data.socialpick.item[i].keyword)
 							  .replace('CNT', data.socialpick.item[i].count)
 							  .replace('TCNT', data.socialpick.item[i].quotation_cnt)
+							  .replace('CONTENT', data.socialpick.item[i].content)							  
 							  .replace('LINK', data.socialpick.item[i].link);
 				} 
 			}).error(function(XMLHttpRequest, textStatus, errorThrown)
