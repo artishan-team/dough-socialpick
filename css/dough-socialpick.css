@@ -1,0 +1,16 @@
+.socialpick select.d_form {
+	margin: 0.3em 0;
+}
+
+.socialpick_content li span.rank{
+	color: #c03e3e;
+}
+
+.socialpick_content li span.info{
+	float: right;
+	color: #666;
+	font-size: 1em
+}
+.socialpick_content li{
+	margin:0.5em 0 0.5em;
+}
