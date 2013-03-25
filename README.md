@@ -3,11 +3,14 @@
 
 Dough UI Socialpick plug-in
 
-*License:* ["Same as Dough (creativecommons 3.0)](http://creativecommons.org/licenses/by/3.0/deed.ko)
+*License:* [Same as Dough (creativecommons 3.0)](http://creativecommons.org/licenses/by/3.0/deed.ko)
 
 *Author:* [Han Seung ho] (http://facebook.com/pengun)
 
+## Demo
 
-## branch
+[http://hansh.kr/Dough-socialpick] (http://hansh.kr/Dough-socialpick)
+
+## Branch
 
 [dough-0.2.0] (https://github.com/HanSeungHo/Dough-socialpick/tree/dough-0.2.0)
