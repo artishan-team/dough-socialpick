@@ -89,7 +89,7 @@
 					result += [
 								"<li class='d_wrap panel'>",
 							  	" <span class='info'> 검색수:CNT 트윗수:TCNT</span>",
-							  	" <h5><span class='rank'> RANK위 </span> <a href='LINK'>KEY</a></h5>",
+							  	" <h5><span class='rank'> RANK위 </span> <a href='LINK' target='_blank'>KEY</a></h5>",
 							  	" <p> CONTENT</p>",
 							  	"</li>"
 							  ].join('\n')
