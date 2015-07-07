@@ -1,4 +1,5 @@
 # Dough-socialpick
+## [다음 소셜픽 서비스 종료](http://bbs.notice.daum.net/gaia/do/service/top/read?articleId=1686&bbsId=00015)
 ================
 
 Dough UI Socialpick plug-in
